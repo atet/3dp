@@ -41,7 +41,7 @@ Electricity | $0.30/kWh in California | 1kWh/10hr print = $0.30/print
 The 3D printer used in this tutorial is the Entina Tina2 Basic (~$150), a.k.a WEEDO/WEEFUN Tina2, Monoprice MP Cadet, Bresser Raptor, etc. This printer is small, compact, and has auto-leveling capability which should make life a bit easier.
 
 [![.img/fig2_tina2_dimensions.jpg](.img/fig2_tina2_dimensions.jpg)](#nolink)
-> Footprint of the Tina2 printer is 8¼" Length × 8¼" Width × 11½" Height with a printing area of 120 mm (4.7 inch) Length × 100 mm (3.9 inch) Width × 100 mm (3.9 inch) Height
+> Footprint of the Tina2 printer is 8¼" Length × 8¼" Width × 11½" Height with a printing area of 120 mm (4.7 inch) Length × 100 mm (3.9 inch) Width × 100 mm (3.9 inch) Height.
 
 [Back to Top](#table-of-contents)
 
@@ -61,17 +61,18 @@ There will be a small spool of PLA filament included (100g), this will only be e
 
 ## 2. First Print
 
-Unpack your printer, remove all protective materials, load the spool of filament through the side extruder clip (green arrow), pull up on the extruder clip (blue arrow), and pinch the end of the filament right between the metal teeth (red arrow). Turn on the printer from the switch on the AC adapter cable and start the `Load Filament` process.
+Unpack your printer, remove all protective materials, load the spool of filament through the side extruder clip (green arrow), pull up on the extruder clip (blue arrow), and pinch the end of the filament right between the metal teeth (red arrow). **Do not advance the filament past this point into the white filament guide tube**. Turn on the printer from the switch on the AC adapter cable and start the `Load Filament` process.
 
 [![.img/fig3_tina2_feeder.jpg](.img/fig3_tina2_feeder.jpg)](#nolink)
 
-Since the printer comes with a microSD card preloaded with models, all you have to do for your first print is insert the microSD card in the slot to the left of the LCD screen, find the model you want to print, and *print*!
+Since the printer comes with a microSD card preloaded with models, all you have to do for your first print is insert the microSD card in the slot to the left of the LCD screen, choose `Print from TF`, find the model you want to print, and *print*!
 
 [![.img/fig4_tina2_first_print.jpg](.img/fig4_tina2_first_print.jpg)](#nolink)
 
-The first print I did was the square test. After the printer warming up, this printed in about 10 minutes and came out relatively clean, square, and smooth.
+The model that should be printed first is the square test to ensure the printer is working correctly. After the printer warms up, this will print in about 10 minutes and should come out relatively clean, square, and smooth.
 
 [![.img/fig5_tina2_square.jpg](.img/fig5_tina2_square.jpg)](#nolink)
+> NOTE: You can remove the square from the support base (middle panel).
 
 [Back to Top](#table-of-contents)
 
@@ -97,7 +98,7 @@ Basic model manipulation like orientation and scaling can be performed in the sl
 
 The recommended slicing software for the Tina2 is the WiiBuilder2 program as it contains the specifications for this printer. You can download it from: http://download.entina3d.com/download/Wiibuilder-MacOS-ENTINA_2.2.1.0.rar
 
-After installation, open `Wiibuilder.exe`, select Printer, and select WEEDO TINA2 to load the correct printer settings.
+After installation, open `Wiibuilder.exe`, select `Printer`, and select `WEEDO TINA2` to load the correct printer settings.
 
 [![.img/fig7_wiibuilder_printer.jpg](.img/fig7_wiibuilder_printer.jpg)](#nolink)
 
@@ -105,7 +106,7 @@ Once you load an `*.stl` model, you can adjust orientation and even scale the mo
 
 [![.img/fig8_wiibuilder_stl.jpg](.img/fig8_wiibuilder_stl.jpg)](#nolink)
 
-Once you're satisfied, click on the Slice button and wait for the program to convert the `*.stl` model into the `*.gcode` instructions for your Tina2 printer. Note that the estimated print time and amount of filament used is calculated on the bottom right.
+Once you're satisfied, click on the `Slice` button and wait for the program to convert the `*.stl` model into the `*.gcode` instructions for your Tina2 printer. Note that the estimated print time and amount of filament used is calculated on the bottom right.
 
 [![.img/fig9_wiibuilder_gcode.jpg](.img/fig9_wiibuilder_gcode.jpg)](#nolink)
 
@@ -151,7 +152,7 @@ Thingiverse | https://www.thingiverse.com
 Issue | Solution
 --- | ---
 **"Printer doesn't seem to be working out of the box!"** | You should return or exhange the printer as it may not be worth repairing it
-**"A ton of filament is coming out during Load Filament step!"** | Instead of pushing the filament all the way to the nozzle (through the white tubing), only clamp it between the metal teeth of the extruder
+**"A ton of filament is coming out during `Load Filament` step!"** | Instead of pushing the filament all the way to the hotend nozzle (through the white filament guide tubing), only clamp it between the metal teeth of the extruder
 **"It's not working!"** | This concise tutorial has distilled hours of sweat, tears, and troubleshooting; _it can't not work_
 
 [Back to Top](#table-of-contents)
