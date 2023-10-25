@@ -26,7 +26,6 @@ Excluding time to download, install dependencies, and waiting for your first 3D 
 
 * [Other Resources](#other-resources)
 * [Troubleshooting](#troubleshooting)
-* [Acknowledgments](#acknowledgments)
 
 --------------------------------------------------------------------------------------------------
 
@@ -116,11 +115,20 @@ Once you're satisfied, click on the Slice button and wait for the program to con
 
 ## 5. Printing
 
+Load your newly generated `*.gcode` file onto the microSD card, load it up on the printer, and print!
+
+[![.img/fig10_print_skull.jpg](.img/fig10_print_skull.jpg)](#nolink)
+> Halfway done - This print took over 10 hours to finish and used half of the included 100g filament spool.
+
 [Back to Top](#table-of-contents)
 
 --------------------------------------------------------------------------------------------------
 
 ## 6. Next Steps
+
+Now that you have two prints under your belt, find more complex models or make your own; *the sky is the limit...or actually, 120×100×100 mm*.
+
+**TODO**: Add a picture of a more complex print I've made for the Raytheon Certified Innovator Program.
 
 [Back to Top](#table-of-contents)
 
@@ -132,6 +140,7 @@ Description | URL Link
 --- | ---
 Entina Tina2 Documents | https://www.entina3d.com/pages/download
 WEEDO Tina2 Wiki | https://www.weedotina2.com/doku.php
+Thingiverse | https://www.thingiverse.com
 
 [Back to Top](#table-of-contents)
 
@@ -142,12 +151,6 @@ WEEDO Tina2 Wiki | https://www.weedotina2.com/doku.php
 Issue | Solution
 --- | ---
 **"It's not working!"** | This concise tutorial has distilled hours of sweat, tears, and troubleshooting; _it can't not work_
-
-[Back to Top](#table-of-contents)
-
---------------------------------------------------------------------------------------------------
-
-## Acknowledgments
 
 [Back to Top](#table-of-contents)
 
