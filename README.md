@@ -1,6 +1,6 @@
 # [atet](https://github.com/atet) / [**_3dp_**](https://github.com/atet/3dp/blob/main/README.md#atet--3dp)
 
-[![]()](#nolink)
+[![.img/fig1_logo_tina2.jpg](.img/fig1_logo_tina2.jpg)](#nolink)
 
 # 3D Printing
 
@@ -32,17 +32,33 @@ Excluding time to download, install dependencies, and waiting for your first 3D 
 
 ## 0. Preface
 
+***Here's the deal***: You'll either get a cheap 3D printer (<$100) and spend a lot of time troubleshooting or you'll invest in a higher quality one and not have as many headaches. Regardless, after considering consumables below, **3D printing will add up**.
+
+Consumable | Price per Unit | Price per Print
+--- | --- | ---
+PLA Filament | ~$20/1kg spool | 20 × 50g prints = $1/print
+Electricity | $0.30/kWh in California | 1kWh/10hr print = $0.30/print
+
+The 3D printer used in this tutorial is the Entina Tina2 Basic (~$150), a.k.a WEEDO/WEEFUN Tina2, Monoprice MP Cadet, Bresser Raptor, etc. This printer is small, compact, and has auto-leveling capability which should make life a bit easier.
+
+[![.img/fig2_tina2_dimensions.jpg](.img/fig2_tina2_dimensions.jpg)](#nolink)
+> Footprint of the Tina2 printer is 8¼" Length × 8¼" Width × 11½" Height with a printing area of 120 mm (4.7 inch) Length × 100 mm (3.9 inch) Width × 100 mm (3.9 inch) Height
+
 [Back to Top](#table-of-contents)
 
 --------------------------------------------------------------------------------------------------
 
 ## 1. Requirements
 
+
+
 [Back to Top](#table-of-contents)
 
 --------------------------------------------------------------------------------------------------
 
 ## 2. Installation
+
+The program required to open 3D models to "slice" them into instructions specifically for the Tina2's specification 
 
 [Back to Top](#table-of-contents)
 
@@ -73,6 +89,11 @@ Excluding time to download, install dependencies, and waiting for your first 3D 
 --------------------------------------------------------------------------------------------------
 
 ## Other Resources
+
+Description | URL Link
+--- | ---
+Entina Tina2 Documents | https://www.entina3d.com/pages/download
+WEEDO Tina2 Wiki | https://www.weedotina2.com/doku.php
 
 [Back to Top](#table-of-contents)
 
