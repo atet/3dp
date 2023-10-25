@@ -80,11 +80,35 @@ The first print I did was the square test. After the printer warming up, this pr
 
 ## 3. Models
 
+### Downloading Models
+
+You can download free 3D models from Thingiverse (https://www.thingiverse.com). The file(s) you download with be `*.stl` files that must be "sliced", which turns the `*.stl` model into instructions specifically for the Tina2's printing specifications.
+
+[![.img/fig6_thingiverse_benchy.jpg](.img/fig6_thingiverse_benchy.jpg)](#nolink)
+
+### Creating Your Own Models
+
+Basic model manipulation like orientation and scaling can be performed in the slicing software. Further model creation is beyond the scope of this tutorial.
+
 [Back to Top](#table-of-contents)
 
 --------------------------------------------------------------------------------------------------
 
 ## 4. Slicing
+
+The recommended slicing software for the Tina2 is the WiiBuilder2 program as it contains the specifications for this printer. You can download it from: http://download.entina3d.com/download/Wiibuilder-MacOS-ENTINA_2.2.1.0.rar
+
+After installation, open `Wiibuilder.exe`, select Printer, and select WEEDO TINA2 to load the correct printer settings.
+
+[![.img/fig7_wiibuilder_printer.jpg](.img/fig7_wiibuilder_printer.jpg)](#nolink)
+
+Once you load an `*.stl` model, you can adjust orientation and even scale the model to make it smaller or larger. If you make the object too large, the program will warn you that it is beyond the Tina2's limits.
+
+[![.img/fig8_wiibuilder_stl.jpg](.img/fig8_wiibuilder_stl.jpg)](#nolink)
+
+Once you're satisfied, click on the Slice button and wait for the program to convert the `*.stl` model into the `*.gcode` instructions for your Tina2 printer. Note that the estimated print time and amount of filament used is calculated on the bottom right.
+
+[![.img/fig9_wiibuilder_gcode.jpg](.img/fig9_wiibuilder_gcode.jpg)](#nolink)
 
 [Back to Top](#table-of-contents)
 
