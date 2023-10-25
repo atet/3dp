@@ -16,7 +16,7 @@ Excluding time to download, install dependencies, and waiting for your first 3D 
 
 * [0. Preface](#0-preface)
 * [1. Requirements](#1-requirements)
-* [2. Installation](#2-installation)
+* [2. First Print](#2-first-print)
 * [3. Models](#3-models)
 * [4. Slicing](#4-slicing)
 * [5. Printing](#5-printing)
@@ -50,15 +50,29 @@ The 3D printer used in this tutorial is the Entina Tina2 Basic (~$150), a.k.a WE
 
 ## 1. Requirements
 
+You will need a computer to download or create 3D models and to "slice" them into instructions specifically for the Tina2's printing specifications.
 
+The Tina2 Basic can only read files via a microSD card (8GB card and USB reader included) or direct connection to your computer via a USB cable (not included).
+
+There will be a small spool of PLA filament included (100g), this will only be enough for a few large prints.
 
 [Back to Top](#table-of-contents)
 
 --------------------------------------------------------------------------------------------------
 
-## 2. Installation
+## 2. First Print
 
-The program required to open 3D models to "slice" them into instructions specifically for the Tina2's specification 
+Unpack your printer, remove all protective materials, load the spool of filament through the feeder clip (green arrow), pull up on the feeder clip (blue arrow), and pinch the end of the filament right between the metal teeth (red arrow). Turn on the printer from the switch on the AC adapter cable and start the `Load Filament` process.
+
+[![.img/fig3_tina2_feeder.jpg](.img/fig3_tina2_feeder.jpg)](#nolink)
+
+Since the printer comes with a microSD card preloaded with models, all you have to do for your first print is insert the microSD card in the slot to the left of the LCD screen, find the model you want to print, and *print*!
+
+[![.img/fig4_tina2_first_print.jpg](.img/fig4_tina2_first_print.jpg)](#nolink)
+
+The first print I did was the square test. After the printer warming up, this printed in about 10 minutes and came out relatively clean, square, and smooth.
+
+[![.img/fig5_tina2_square.jpg](.img/fig5_tina2_square.jpg)](#nolink)
 
 [Back to Top](#table-of-contents)
 
