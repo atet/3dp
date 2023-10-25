@@ -61,7 +61,7 @@ There will be a small spool of PLA filament included (100g), this will only be e
 
 ## 2. First Print
 
-Unpack your printer, remove all protective materials, load the spool of filament through the feeder clip (green arrow), pull up on the feeder clip (blue arrow), and pinch the end of the filament right between the metal teeth (red arrow). Turn on the printer from the switch on the AC adapter cable and start the `Load Filament` process.
+Unpack your printer, remove all protective materials, load the spool of filament through the side extruder clip (green arrow), pull up on the extruder clip (blue arrow), and pinch the end of the filament right between the metal teeth (red arrow). Turn on the printer from the switch on the AC adapter cable and start the `Load Filament` process.
 
 [![.img/fig3_tina2_feeder.jpg](.img/fig3_tina2_feeder.jpg)](#nolink)
 
@@ -126,7 +126,7 @@ Load your newly generated `*.gcode` file onto the microSD card, load it up on th
 
 ## 6. Next Steps
 
-Now that you have two prints under your belt, find more complex models or make your own; *the sky is the limit...or actually, 120×100×100 mm*.
+Now that you have two prints under your belt, find more complex models or make your own; *the sky's the limit...or actually, 120×100×100 mm in this case*.
 
 **TODO**: Add a picture of a more complex print I've made for the Raytheon Certified Innovator Program.
 
@@ -150,6 +150,8 @@ Thingiverse | https://www.thingiverse.com
 
 Issue | Solution
 --- | ---
+**"Printer doesn't seem to be working out of the box!"** | You should return or exhange the printer as it may not be worth repairing it
+**"A ton of filament is coming out during Load Filament step!"** | Instead of pushing the filament all the way to the nozzle (through the white tubing), only clamp it between the metal teeth of the extruder
 **"It's not working!"** | This concise tutorial has distilled hours of sweat, tears, and troubleshooting; _it can't not work_
 
 [Back to Top](#table-of-contents)
