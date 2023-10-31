@@ -74,7 +74,7 @@ Since the printer comes with a microSD card preloaded with models, all you have 
 The model that should be printed first is the square test (`test-12min.gcode` file) to ensure the printer is working correctly. After the printer warms up, this will print in about 12 minutes and should come out relatively clean, square, and smooth.
 
 [![.img/fig5_tina2_square.jpg](.img/fig5_tina2_square.jpg)](#nolink)
-> NOTE: You can remove the square from the support base (middle panel).
+> NOTE: You can remove the square from the support raft (middle panel).
 
 [Back to Top](#table-of-contents)
 
@@ -90,7 +90,7 @@ You can download free 3D models from Thingiverse (https://www.thingiverse.com). 
 
 ### Creating Your Own Models
 
-Basic model manipulation like orientation and scaling can be performed in the slicing software. Further model creation is beyond the scope of this tutorial.
+Only basic manipulation of existing models (like orientation and scaling) can be performed in the slicing software in the next section. Further model creation is beyond the scope of this tutorial.
 
 [Back to Top](#table-of-contents)
 
@@ -98,7 +98,7 @@ Basic model manipulation like orientation and scaling can be performed in the sl
 
 ## 4. Slicing
 
-The recommended slicing software for the Tina2 is the WiiBuilder2 program as it contains the specifications for this printer. You can download it from: http://download.entina3d.com/download/Wiibuilder-MacOS-ENTINA_2.2.1.0.rar
+The recommended slicing software for the Tina2 is the WiiBuilder2 program as it contains the specifications for this printer. You can download it from: https://download.entina3d.com/download/ENTINA-Wiibuilder-2.3.0.0-Win.zip
 
 After installation, open `Wiibuilder.exe`, select `Printer`, and select `WEEDO TINA2` to load the correct printer settings.
 
@@ -122,9 +122,11 @@ Load your newly generated `*.gcode` file onto the microSD card, load it up on th
 
 [![.img/fig10_print_skull.jpg](.img/fig10_print_skull.jpg)](#nolink)
 
-Halfway done - This print took over 10 hours to finish and used half of the included 100g filament spool.
+> Halfway done! 
 
 [![.img/fig11_print_skull.jpg](.img/fig11_print_skull.jpg)](#nolink)
+
+> This print took over 10 hours to finish and used half of the included 100g filament spool.
 
 [Back to Top](#table-of-contents)
 
@@ -156,6 +158,7 @@ Thingiverse | https://www.thingiverse.com
 
 Issue | Solution
 --- | ---
+**"I don't see my model files on the SD card when inserted in the printer."** | Ensure that the model's `*.gcode` file was copied and not the `*.stl` file
 **"The printer is working but having issues with the print."** | Here are common 3D printer issues: https://www.simplify3d.com/resources/print-quality-troubleshooting
 **"Printer doesn't seem to be working at all out of the box!"** | You should return or exhange the printer as it may not be worth repairing it
 **"A ton of filament is coming out during `Load Filament` step!"** | Instead of pushing the filament all the way to the hotend nozzle (through the white filament guide tubing), only clamp it between the metal teeth of the extruder
@@ -165,4 +168,4 @@ Issue | Solution
 
 --------------------------------------------------------------------------------------------------
 
-<p align="center">Copyright © 2022-∞ Athit Kao, <a href="http://www.athitkao.com/tos.html" target="_blank">Terms and Conditions</a></p>
+<p align="center">Copyright © 2023-∞ Athit Kao, <a href="http://www.athitkao.com/tos.html" target="_blank">Terms and Conditions</a></p>
