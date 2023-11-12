@@ -128,7 +128,7 @@ Load your newly generated `*.gcode` file onto the microSD card, load it up on th
 
 [![.img/fig11_print_skull.jpg](.img/fig11_print_skull.jpg)](#nolink)
 
-> This print took over 10 hours to finish and used half of the included 100g filament spool.
+> This print took over 10 hours to finish and used half of the included 100 g filament spool.
 
 [Back to Top](#table-of-contents)
 
@@ -150,9 +150,9 @@ As an example, you could make some large items even with the small print area of
 - Due to the small print bed, only a few parts could be printed simultaneously
 - The `counter1.stl` part required supports to print well and was difficult to remove
 - Multiple prints over a couple days allowed different colors and material types† to be used
-- Extra parts required: 25× M3×12mm & 2× M3×20mm machine screws and 2× ballpoint pen springs
+- Extra parts required: 20× M3×12mm & 2× M3×20mm machine screws and 2× ballpoint pen springs
 
-†The spring mechanism was printed in PLA+, which is advertised to be tougher and less brittle than regular PLA
+>†The spring mechanism was printed in PLA+, which is advertised to be tougher and less brittle than regular PLA
 
 [Back to Top](#table-of-contents)
 
@@ -174,11 +174,11 @@ Thingiverse | https://www.thingiverse.com
 
 Issue | Solution
 --- | ---
-**"I don't see my model files on the SD card when inserted in the printer."** | Ensure that the model's `*.gcode` file was copied and not the `*.stl` file
-**"The printer is working but having issues with the print."** | Here are common 3D printer issues: https://www.simplify3d.com/resources/print-quality-troubleshooting
 **"Printer doesn't seem to be working at all out of the box!"** | You should return or exhange the printer as it may not be worth repairing it
 **"A ton of filament is coming out during `Load Filament` step!"** | Instead of pushing the filament all the way to the hotend nozzle (through the white filament guide tubing), only clamp it between the metal teeth of the extruder
-**"It's not working!"** | This concise tutorial has distilled hours of sweat, tears, and troubleshooting; _it can't not work_
+**"I don't see my model files on the SD card when inserted in the printer."** | Ensure that the model's `*.gcode` file was copied and not the `*.stl` file
+**"The printer is working but having issues with the print."** | Here are common 3D printer issues: https://www.simplify3d.com/resources/print-quality-troubleshooting
+**"Seems like a lot of wasted filament..."** | Between rafts, supports, filament changes, and print failures you will have a lot of waste material; this is just the name of the game
 
 [Back to Top](#table-of-contents)
 
