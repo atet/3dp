@@ -136,7 +136,21 @@ Load your newly generated `*.gcode` file onto the microSD card, load it up on th
 
 Now that you have two prints under your belt, find more complex models or make your own; *the sky's the limit...or actually, 120×100×100 mm in this case*.
 
-**TODO**: Add a picture of a more complex print I've made for the Raytheon Certified Innovator Program.
+As an example, you could make some large items even with the small print area of the Tina2. Here's the most complex print I've made yet on this printer: [Bottle Counter V4 by Ruben Martins](https://www.printables.com/model/179665-beercounterv4-bottle-opener).
+
+| | | |
+|:-:|:--:|:--:|
+|<img width="256" alt="Figure 12a. Bottle Counter Model" src="./.img/fig12a_bottle_counter.jpg">|<img width="256" alt="Figure 12b. 3D Printing at 100% Infill" src="./.img/fig12b_bottle_counter.jpg">|<img width="256" alt="Figure 12c. Support Removed for a Part" src="./.img/fig12c_bottle_counter.jpg">|
+|<img width="256" alt="Figure 12d. Extra Parts" src="./.img/fig12d_bottle_counter.jpg">| <img width="256" alt="Figure 12e. PLA+ Spring in Action" src="./.img/fig12e_bottle_counter.gif">|<img width="256" alt="Figure 12f. Assembled Bottle Counter" src="./.img/fig12f_bottle_counter.jpg">
+
+- Rafts not used as print bed glue ensured print adhesion to...bed
+- Parts were 100% infill and took longer to print (>52 hrs, ~500 g filament)
+- Due to the small print bed, only a few parts could be printed simultaneously
+- The `counter1.stl` part required supports to print well and was difficult to remove
+- Multiple prints over a couple days allowed different colors and material types† to be used
+- Extra parts required: 25× M3×12mm & 2× M3×20mm machine screws and 2× ballpoint pen springs
+
+†The spring mechanism was printed in PLA+, which is advertised to be tougher and less brittle than regular PLA
 
 [Back to Top](#table-of-contents)
 
