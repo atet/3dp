@@ -71,6 +71,8 @@ Since the printer comes with a microSD card preloaded with models, all you have 
 
 [![.img/fig4_tina2_first_print.jpg](.img/fig4_tina2_first_print.jpg)](#nolink)
 
+> WARNING: Do not remove the microSD card while printing, otherwise print will immediately stop
+
 The model that should be printed first is the square test (`test-12min.gcode` file) to ensure the printer is working correctly. After the printer warms up, this will print in about 12 minutes and should come out relatively clean, square, and smooth.
 
 [![.img/fig5_tina2_square.jpg](.img/fig5_tina2_square.jpg)](#nolink)
