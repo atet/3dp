@@ -142,8 +142,8 @@ As an example, you could make some large items even with the small print area of
 
 | | | |
 |:-:|:--:|:--:|
-|<img width="256" alt="Figure 12a. Bottle Counter Model" src="./.img/fig12a_bottle_counter.jpg">|<img width="256" alt="Figure 12b. 3D Printing at 100% Infill" src="./.img/fig12b_bottle_counter.jpg">|<img width="256" alt="Figure 12c. Support Removed for a Part" src="./.img/fig12c_bottle_counter.jpg">|
-|<img width="256" alt="Figure 12d. Extra Parts" src="./.img/fig12d_bottle_counter.jpg">| <img width="256" alt="Figure 12e. PLA+ Spring in Action" src="./.img/fig12e_bottle_counter.gif">|<img width="256" alt="Figure 12f. Assembled Bottle Counter" src="./.img/fig12f_bottle_counter.jpg">
+|[![Figure 12a. Bottle Counter Model](./.img/fig12a_bottle_counter.jpg)](#nolink)|[![Figure 12b. 3D Printing at 100% Infill](./.img/fig12b_bottle_counter.jpg)](#nolink)|[![Figure 12c. Support Removed for a Part](./.img/fig12c_bottle_counter.jpg)](#nolink)|
+|[![Figure 12d. Extra Parts](./.img/fig12d_bottle_counter.jpg)](#nolink)|[![Figure 12e. PLA+ Spring in Action](./.img/fig12e_bottle_counter.gif)](#nolink)|[![Figure 12f. Assembled Bottle Counter](./.img/fig12f_bottle_counter.jpg)](#nolink)|
 
 - Rafts not used as print bed glue ensured print adhesion to...bed
 - Parts were 100% infill and took longer to print (>52 hrs, ~500 g filament)
